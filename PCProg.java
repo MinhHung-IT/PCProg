@@ -1,5 +1,3 @@
-package a2_2101040097;
-
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
@@ -132,6 +130,7 @@ public class PCProg {
         return objs;
     }
 }
+
 
 
 
