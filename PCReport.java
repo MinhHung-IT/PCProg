@@ -1,5 +1,3 @@
-package a2_2101040097;
-
 public class PCReport {
     public String displayReport(PC[] objs) {
         String title = "PCPROG REPORT";
@@ -27,4 +25,5 @@ public class PCReport {
         display.append(dashes).append("\n");
         return display.toString();
     }
+
 }
