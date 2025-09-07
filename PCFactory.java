@@ -1,5 +1,3 @@
-package a2_2101040097;
-
 import utils.NotPossibleException;
 
 public class PCFactory {
@@ -16,4 +14,5 @@ public class PCFactory {
     public PC createPC(String model, int year, String manufacturer, Set<String> comps) throws NotPossibleException {
         return new PC(model, year, manufacturer, comps);
     }
+
 }
