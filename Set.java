@@ -1,5 +1,3 @@
-package a2_2101040097;
-
 import java.util.AbstractCollection;
 import java.util.Iterator;
 import java.util.Vector;
@@ -136,3 +134,4 @@ public class Set<T> extends AbstractCollection<T> {
         return getElements().equals(set.getElements());
     }
 }
+
