@@ -1,5 +1,3 @@
-package a2_2101040097;
-
 import utils.NotPossibleException;
 import java.util.Objects;
 
@@ -70,4 +68,5 @@ public class PC {
                 && manufacturer.equals(comparedpc.manufacturer)
                 && comps.equals(comparedpc.comps);
     }
+
 }
